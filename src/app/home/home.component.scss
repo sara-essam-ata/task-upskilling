@@ -1,0 +1,36 @@
+.container-fluid
+{ 
+    background-image: url(../home/background.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+.btn
+{
+    background-color: #5180F6;
+}
+.letter-spacing
+{
+    letter-spacing: 10px;
+}
+.second-color
+{
+    color: #4F4F4F;
+}
+@media (max-width: 768px) { 
+    .head{
+        top: 0;
+        padding-top: 20px;
+    };
+    .container-fluid
+    {
+        background-size: cover !important;
+        background-position: 100% 100%;
+
+    }
+    .second-color
+    {
+        color: #5180F6;
+        text-shadow: 1px 1px #FFF;
+    }
+ }

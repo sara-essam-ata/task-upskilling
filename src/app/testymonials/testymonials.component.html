@@ -1,0 +1,24 @@
+<div class="container-fluid  mt-4 py-4">
+    <div class="head ">
+        <h2 class=" m-auto text-center  fw-bold fs-1 lh-lg">Testymonials </h2>
+    </div>
+    <div class="container ">
+        <div class="row ">
+            <div *ngFor="let user of users" class="col-md-6 mt-5 ">
+                <div class="user border rounded-4 py-4 d-flex justify-content-evenly">
+                    <img class="rounded-circle" src="{{user.avatar}}" alt="">
+                    <div class="caption">
+                        <h3>{{user.first_name +user.last_name}}</h3>
+                        <p>{{user.email}}</p>
+                        <img src="../../assets/staricon.svg" alt="">
+                        <img src="../../assets/staricon.svg" alt="">
+                        <img src="../../assets/staricon.svg" alt="">
+                        <img src="../../assets/staricon.svg" alt="">
+                        <img src="../../assets/staricon.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

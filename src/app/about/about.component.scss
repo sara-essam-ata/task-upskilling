@@ -1,0 +1,38 @@
+*
+{
+    color: white;
+}
+.about
+{
+    background-image: url(../../assets/images/Rectangle262.jpg.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100vh;    
+}
+.about-content
+{ 
+    background-image: url(../../assets/task.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 0%;
+    height: 100vh;
+}
+// h2
+// p
+// 
+// .row
+
+.btn
+{
+    width: auto;
+}
+
+@media (max-width: 768px ) { 
+    .item p{
+        font-size: small !important;
+        font-weight: 400 !important;
+    }
+    .image{
+        display: none !important;
+    }
+}
