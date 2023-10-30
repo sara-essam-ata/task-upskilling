@@ -1,3 +1,4 @@
 title: task
 baseurl: ""
 url: ""
+theme: jekyll-theme-primer
